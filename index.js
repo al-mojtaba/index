@@ -83,8 +83,6 @@ const getToken = async () => {
   const auth = async () => {
     await second();
 
-    const postData = `csrf_token=${cookiesJson["csrf_token"]}&ts=1729540073&et=0bae13617a01adcecebc6c69cefdc4f299ca5d6a&ga_client_id=&gclid=&login_user=mojtabadric%40gmail.com&login_pass=%21Dricmojtabasg1`;
-
     const options = {
       hostname: "my.xmarabia.net",
       path: "/member/auth",
